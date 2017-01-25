@@ -16,12 +16,12 @@
 	<framework src="me.dm7.barcodescanner:zbar:1.9" />
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="SimpleZBar">
-                <param name="android-package" value="com.github.simplezbar.SimpleZBar"/>
+                <param name="android-package" value="com.github.er5.simplezbar.SimpleZBar"/>
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </config-file>
-        <source-file src="src/android/SimpleZBar.java" target-dir="src/com/github/simplezbar/"/>
+        <source-file src="src/android/SimpleZBar.java" target-dir="src/com/github/er5/simplezbar/"/>
     </platform>
 </plugin>

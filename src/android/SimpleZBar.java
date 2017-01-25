@@ -1,4 +1,4 @@
-package com.github.simplezbar;
+package com.github.er5.simplezbar;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
